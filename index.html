@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/285a39a91f.js" crossorigin="anonymous"></script>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="container">
+            <img src="/images/logo.png" alt="LogoPic.png" width="15%" height="100%">
+            <nav>
+                <ul class="nav_bar">
+                    <li class="nav_items"><a href="#home">Home</a></li>
+                    <li class="nav_items"><a href="#aboutme">About Me</a></li>
+                    <li class="nav_items"><a href="#project">Projects</a></li>
+                    <li class="nav_items"><a href="#skills">Skills</a></li>
+                    <li class="nav_items"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="Main">
+                <div class="paragraphM">
+                    <h1 id="home">Hi, I'm Omar AL-Shahed</h1>
+                    <h6>Web Developer</h6>
+                    <a href="/pages/omarcv.pdf"><button id="button1" value="resume">Go to Resume</button></a>
+                </div>
+                <img src="/images/Main_image.png" alt="BackGround.png">
+            </section>
+        </main>
+        <section class="container">
+            <h4 id="aboutme">About Me</h4>
+            <div class="about">
+                <div>
+                    <p id="aboutp">"I am Omar Alshahed, a 22-year-old computer science graduate from the University of Jordan. I'm from Amman, Jordan, and I'm currently interning at Orange Coding Academy, where I'm gaining hands-on experience in programming. I am passionate about technology and eager to develop innovative software solutions."</p>
+                    <form>
+                        <label for="Phone">Phone :</label>
+                        <label for="Email">Email :</label>
+                        <label for="Website">Website :</label>
+                        <label for="Phone">+962798727686</label>
+                        <label for="Email">omar.mshahed@gmail.com</label>
+                        <label for="Website">https://github.com/omarmsh02</label>
+                    </form>
+                </div>
+                <img id="mypic" src="images/me.jpeg" alt="Omar'sPic.jpeg">
+            </div>
+        </section>
+        <section class="container">
+            <h4 id="project">Projects</h4>
+            <div class="project-grid">
+                <div class="project-item pic1">
+                    <a href="https://www.youtube.com/@grintafllteam9127"><img src="/images/grinta.png" alt="Project 1"></a>
+                </div>
+                <div class="project-item pic2">
+                    <a href="https://github.com/A-Karaki02/university_project"><img src="/images/Buildsmart.png" alt="Project 2"></a>
+                </div>
+                <div class="project-item pic3">
+                    <a href="https://github.com/omarmsh02/Voip-app"><img src="/images/voip.png" alt="Project 3"></a>
+                </div>
+                <div class="project-item pic4">
+                    <a href="https://github.com/omarmsh02/test-1st-week"><img src="/images/html5.png" alt="Project 4"></a>
+                </div>
+                <div class="project-item pic5">
+                    <a href="https://github.com/omarmsh02/test_2nd_week"><img src="/images/css3.png" alt="Project 5"></a>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h4 id="skills">Skills</h4>
+            <div>
+                <ul class="skill_icon">
+                    <div>
+                        <li><i class="fa-brands fa-html5 fa-2xl" style="color: #ff5733;"></i></li>
+                        <p>HTML5</p>
+                        <p>95<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                    <div>
+                        <li><i class="fa-brands fa-css3-alt fa-2xl" style="color: #0277bd;"></i></li>
+                        <p>CSS3</p>
+                        <p>85<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                    <div>
+                        <li><i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i></li>
+                        <p>JavaScript</p>
+                        <p>100<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                    <div>
+                        <li><i class="fa-brands fa-react fa-2xl" style="color: #53c1de;"></i></li>
+                        <p>React</p>
+                        <p>80<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                    <div>
+                        <li><i class="fa-brands fa-laravel fa-2xl" style="color: #f05340;"></i></li>
+                        <p>Laravel</p>
+                        <p>90<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                    <div>
+                        <li><i class="fa-brands fa-php fa-2xl" style="color: #858eb8;"></i></li>
+                        <p>PHP</p>
+                        <p>95<i class="fa-solid fa-percent"></i></p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="container">
+            <h4 id="contact">Contact Me</h4>
+            <div class="inner_container">
+                <form class="c_form">
+                    <div class="flex_row">
+                        <input type="text" name="name" placeholder="Name*" required>
+                        <input type="email" name="email" placeholder="Email*" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" rows="5" placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="c_info">
+                    <h2>Omar AL-Shahed</h2>
+                    <p>Web Developer</p>
+                    <p>Phone: +962 798727686</p>
+                    <p>Email: omar.mshahed@gmail.com</p>
+                    <p>Website: https://github.com/omarmsh02</p>
+                    <div class="c_icons">
+                        <a href="https://github.com/omarmsh02"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+                        <a href="https://www.linkedin.com/in/omar-al-shahed-a18447307/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+                        <a href="https://www.facebook.com/omar.shahed.9"><i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i></a>
+                        <a href="https://www.instagram.com/omar_mutasem_/"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>&copy;Copyright Omar AL-Shahed.</footer>
+    </body>
+</html> 
