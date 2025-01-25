@@ -146,6 +146,10 @@ form {
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
+#Pimg{
+    width: 200px;
+    height: 200px;
+}
 .project-item {
     display: flex;
     justify-content: center;
